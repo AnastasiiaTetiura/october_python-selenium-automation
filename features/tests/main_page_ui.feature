@@ -1,6 +1,7 @@
-# Created by anastasiiatetiura at 11/11/23
-Feature: # Enter feature name here
-  # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+Feature: Main page UI tests
+
+  Scenario: Header has correct amount of links
+    Given Open target main page
+    Then Verify header is present
+    And Verify header has 5 links
